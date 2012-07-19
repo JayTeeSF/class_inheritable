@@ -3,7 +3,9 @@ without monkey-patching base-classes or polluting target classes with
 unexpected methods/attributes
 
 Basic use-case:
-  irb -r "./lib/class_inheritable/array.rb"   
+  gem install class_inheritable
+  irb
+    require 'class_inheritable'
     class MyClass
        ClassInheritable::Array.attach :to => self, :as => :foo
        append_foo :bar
