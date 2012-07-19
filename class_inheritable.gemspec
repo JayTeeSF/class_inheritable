@@ -5,7 +5,7 @@ require "class_inheritable/version"
 Gem::Specification.new do |s|
   s.name        = "class_inheritable"
   s.version     = ClassInheritable::VERSION
-  s.authors     = ["Jonathan Thomas"]
+  s.authors     = ["JayTeeSr"]
   s.email       = ["jaytee_sr_at_his-service_dot_net"]
   s.homepage    = "https://github.com/JayTeeSF/class_inheritable"
   s.summary     = %q{Automate management of i18n locale files}
