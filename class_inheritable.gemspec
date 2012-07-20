@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["JayTeeSr"]
   s.email       = ["jaytee_sr_at_his-service_dot_net"]
   s.homepage    = "https://github.com/JayTeeSF/class_inheritable"
-  s.summary     = %q{Automate management of i18n locale files}
-  s.description = %q{Export strings that need to be translated and integrate the completed translations}
+  s.summary     = %q{Duplicate Rails old class_inheritable_array sans base-class monkey-patching}
+  s.description = %q{Duplicate Rails old class_inheritable_array sans base-class monkey-patching}
   s.rubyforge_project = "class_inheritable"
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
